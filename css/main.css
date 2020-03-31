@@ -1,0 +1,72 @@
+#fnb-main{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+
+
+}
+
+#fnb-main .fnb-landing-page-top{
+  position: relative;
+  height: 100vh;
+  background:#e4eae9 url('../images/首页背景图.png') center 50px no-repeat;
+  background-size: contain;
+}
+
+#fnb-main .fnb-landing-page-top>.fnb-landing-page-claim{
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 50%;
+  margin-bottom: -48px;
+  padding: 0 10%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: table;
+}
+#fnb-main .fnb-landing-page-top>.fnb-landing-page-claim>.fnb-landing-page-claim1{
+  width: 100%;
+  line-height: 1em;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 5.6em;
+  font-weight: 500;
+  color: #38d8d6;
+}
+#fnb-main .fnb-landing-page-top>.fnb-landing-page-claim>.fnb-landing-page-claim2{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 3em;
+  font-weight: 300;
+  color: #6ececc;
+}
+#fnb-main .fnb-landing-page-top>.fnb-landing-page-claim>.fnb-landing-page-claim2>span{
+  color: #38d8d6;
+}
+#fnb-main .fnb-landing-page-top>.fnb-landing-page-claim>.fnb-btn{
+  margin-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  border-color: #38d8d6;
+  color: #fff;
+  background-color: #38d8d6;
+  font-family: 'Roboto Condensed','sana-serif';
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0 20px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 20px;
+  min-width: 100px;
+  cursor: pointer;
+  text-align: center;
+}
